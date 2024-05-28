@@ -1,0 +1,843 @@
+/* ======= COMMON CSS START ======= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    overflow: hidden;
+}
+/* ======= COMMON CSS END ======= */
+
+
+
+/* ======= NAVBAR START ======= */
+
+.navbar{
+    background: rgba(22, 12, 109, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    
+}
+.toggle{
+    margin-right: 30px;
+}
+.toggle i{
+    font-size: 20px;
+    background: #fff;
+    cursor: pointer;
+}
+.navbar .navbar-nav .nav-link{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear .4s;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #1BBF00;
+}
+.nav-btn{
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #1BBF00;
+    border: none;
+}
+.offcanvas{
+    background: #6B62C5;
+}
+.of-btn button{
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #1BBF00;
+    border: none;
+    margin-top: 20px;
+}
+.offcanvas-body .of-nav .of-link{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear .4s;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.offcanvas-body .of-nav .of-link:hover{
+    color: #1BBF00;
+}
+/* ======= NAVBAR END ======= */
+
+
+/* ======= BANNER CSS START ======= */
+#banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 246px;
+    padding-bottom: 254px;
+    position: relative;
+    z-index: 1;
+    
+}
+#banner:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(106, 98, 197, 0.8);
+    z-index: -1;
+
+}
+#banner .row .col-lg-10 .banner-text h1{
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #FAFAFE;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+#banner .row .col-lg-8 .banner-text2 p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #E6E5F3;
+    font-family: 'Paprika', cursive;
+    padding-bottom: 16px;
+}
+.banner-btn{
+    display: flex;
+    position: relative;
+    padding-left: 209px;
+}
+.banner-btn .banner-btn1{
+    padding-right: 28px;
+}
+.banner-btn .banner-btn1 .b1{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding: 20px 40px;
+        border-radius: 100px;
+        border-color: #1BBF00;
+        border-style: solid;
+        background: rgba(25, 191, 0, 0);
+        transition: all linear .4s;
+}
+.banner-btn .banner-btn1 .b1:hover{
+    border-color: #1BBF00;
+    background: #1BBF00;
+}
+.banner-btn .banner-btn2 .b2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #1BBF00;
+    border-color: #1BBF00;
+    border-radius: 100px;
+    padding: 20px 40px;
+    border-style: solid;
+    transition: all linear .4s;
+}
+.banner-btn .banner-btn2 .b2:hover{
+    border-color: #1BBF00;
+    background: rgba(25, 191, 0, 0);
+    border-style: solid;
+}
+/* ======= BANNER CSS END ======= */
+
+
+/* ======= COUNTER CSS START ======= */
+#counter{
+    position: relative;
+    padding-top: 282px;
+    padding-bottom: 282px;
+}
+.counter-text h3{
+    font-size: 64px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: #1BBF00;
+    line-height: 68px;
+    padding-bottom: 24px;
+
+}
+.counter-text p{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    line-height: 40px;
+}
+.counter-text{
+    border-right: 4px solid rgba(79, 88, 95, 0.2);
+}
+.col-lg-3:last-child .counter-text{
+    border-right: none;
+}
+.counter-text:last-child p{
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.counter-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* ======= COUNTER CSS END ======= */
+
+
+/* ======= CHOOSE CSS START ======= */
+#choose{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 91px;
+}
+.cl-icon{
+    height: 25px;
+    width: 25px;
+    background: #1BBF00;
+    border-radius: 50%;
+    position: absolute;
+}
+.cl-icon::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 25px;
+    width: 25px;
+    background: #CBC8F0;
+    border-radius: 50%;
+}
+
+.choose-left p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Paprika', cursive;
+    color: #726E9E;
+    line-height: 30px;
+    padding-left: 65px;
+}
+.choose-left{
+    padding-right: 218px;
+    transition: all linear .4s;
+}
+.choose-left:hover{
+    padding: 42px 146px 42px 28px;
+    background: #FFFFFF;
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 12px;
+}
+.choose-right-text{
+    padding-left: 223px;
+}
+.choose-right-text h4{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+}
+.choose-right-text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Paprika', cursive;
+    color: #726E9E;
+    line-height: 30px;
+    padding-top: 9px;
+    padding-bottom: 41px;
+}
+.choose-right-text .cr-btn button{
+    border-radius: 100px;
+    color: #F9F9F9;
+    padding: 20px 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: #1BBF00;
+    border: none;
+}
+
+.choose-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}
+
+/* ======= CHOOSE CSS END ======= */
+
+
+
+/* ======= SERVICE CSS END ======= */
+#service{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F6F5FF;
+}
+#service .service-row-1{
+    margin-bottom: 24px;
+}
+#service .service-work-part h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color:#141135;
+}
+#service .service-work-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:#6C7D93;
+    width: 340px;
+}
+#service .service-btn button {
+    padding: 20px 40px;
+    background: #1BBF00;
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 24px;
+    border-radius: 100px;
+    border-color: #1BBF00;
+    border-style: solid;
+}
+#service .service-btn button:hover{
+    border-color: 1px solid #1BBF00;
+    background: transparent;
+    transition: all linear 0.5s;
+    color: #1BBF00;
+}
+#service .service-items h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+#service .service-items:hover h4 {
+    color: #FAFAFE;
+}
+#service .service-items p {
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    margin-bottom: 20px;
+}
+#service .service-items:hover p{
+    color: #E6E5F3;
+}
+#service .service-items a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #141135;
+    position: relative;
+}
+#service .service-items:hover a{
+    color: #f4f4f5;
+}
+#service .service-items a::after{
+    content: '';
+    top: 0;
+    right: -7px;
+    position: absolute;
+    width: 24%;
+    height: 100%;
+    padding: 16px 12px 16px 12px;
+    background: rgba(25, 191, 0, 0.3);
+    border-radius: 0px 100px 100px 0px;
+}
+#service .service-items:hover a::after{
+    background: rgba(255, 255, 255, 0.3);
+    transition: all linear .5s;
+}
+#service .service-items:hover a:hover:after{
+    width: 115%;
+    border-radius: 100px 100px 100px 100px;
+}
+#service .service-items{
+    background: #fff;
+    padding: 47px;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
+    border-radius: 20px;
+}
+#service .service-items:hover{
+    background: #6B62C5;
+    transition: all linear 0.5s;
+}
+/* ======= SERVICE CSS END ======= */
+
+/* ======= WORK CSS START ======= */
+
+#works{
+    background: url(../images/work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 91px;
+    position: relative;
+}
+#works .works-titel h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+#works .works-titel p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-style: 18px;
+    line-height: 30px;
+    color:#726E9E;
+    width: 558px;
+    margin: 0 auto;
+}
+#works .works-titel {
+    margin-bottom: 71px;
+}
+#works .work-done {
+    display: flex;
+    margin-bottom: 40px;
+}
+#works .work-impact h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #141135;
+}
+#works .work-done .work-impact p {
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    width: 343px;
+}
+#works .work-done .paragraph p{
+    width: 309px;
+}
+#works .work-impact{
+    margin-left: 35px;
+}
+#works .work-bg-img{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+#works .work-impact-img{
+    position: relative;
+}
+/* ======= WORK CSS END ======= */
+
+/* ======= PACKAGE CSS START ======= */
+
+#packages{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F9F9FB;
+}
+#packages .package-titel h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+#packages .package-titel{
+    padding-bottom: 64px;
+}
+#packages .package-price-part{
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+#packages .package-price-part:hover{
+    background: #6B62C5;
+    transition: all linear 0.5s;
+}
+#packages .package-price-part img{
+    width: 100%;
+}
+#packages .package-price-part h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+}
+#packages .package-price-part:hover h5{
+    color:#FAFAFE ;
+    transition: all linear 0.5s;
+}
+#packages .package-price{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+#packages .package-price h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #1BBF00;
+}
+#packages .package-price i{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    color: #1BBF00;
+}
+#packages .package-price-part p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #726E9E;
+    width: 252px;
+    margin: 0 auto;
+}
+#packages .package-price-part:hover p{
+    color: #E6E5F3;
+    transition: all linear 0.5s;
+}
+#packages .package-price{
+    padding-left: 150px;
+}
+
+/* ======= PACKAGE CSS END ======= */
+
+
+/* ======= ABOUT CSS START ======= */
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .about-titel h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+    padding-bottom: 152px;
+}
+#about .about-info{
+    padding-top: 120px;
+    padding-bottom: 56px;
+    background: #FFFFFF;
+    box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+    border-radius: 20px;
+    position: relative;
+}
+#about .about-info img{
+    border-radius: 50%;
+    position: absolute;
+    top: -73px;
+    left: 49%;
+    transform: translateX(-50%);
+    margin-bottom: 45px;
+}
+.reviwes i{
+    font-size: 16px;
+    color: #FF7628;
+    margin-bottom: 33px;
+}
+#about .about-info p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #726E9E;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+#about .about-designation h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color:#221A2C;
+    margin-bottom: 4px;
+}
+#about .about-designation p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+}
+
+/* ======= ABOUT CSS END ======= */
+
+/* ======= SUGGESTION CSS START ======= */
+#suggestion{
+    background: url(../images/sgt-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+#suggestion .suggestion-titel h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    color: #030314;
+    padding-bottom: 64px;
+    padding-left: 94px;
+}
+#suggestion .suggestions{
+    display: flex;
+    padding-left: 94px;
+    padding-bottom: 60px;
+}
+#suggestion .suggestions .suggestion-img img{
+    border-radius: 20px;
+    position: relative;
+}
+#suggestion .suggestions ul{
+    display: flex;
+    margin-left: -31px;
+}
+#suggestion .suggestion-txt{
+    padding-left: 80px;
+}
+#suggestion .suggestions ul li{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+}
+#suggestion .suggestions ul li:first-child{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1BBF00;
+    margin-right: 35px;
+}
+#suggestion .suggestions ul li:nth-child(2){
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color:#726E9E;
+    margin-right: 8px;
+}
+#suggestion .suggestions ul li:nth-child(3){
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color:#726E9E;
+    margin-right: 24px;
+}
+#suggestion .suggestions ul li:nth-child(4){
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color:#726E9E;
+    margin-right: 12px;
+}
+#suggestion .suggestion-txt h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+#suggestion .suggestion-txt a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #141135;
+    position: relative;
+    z-index: 1;
+}
+#suggestion .suggestion-txt a:hover{
+    color: #000;
+}
+#suggestion .suggestion-txt a::after {
+    content: '';
+    top: 0;
+    right: -7px;
+    position: absolute;
+    width: 24%;
+    height: 100%;
+    padding: 15px 10px;
+    background: rgba(25, 191, 0, 0.3);
+    border-radius: 0px 100px 100px 0px;
+    z-index: -1;
+}
+#suggestion .suggestion-txt a:hover::after{
+    width: 115%;
+    border-radius: 100px 100px 100px 100px;
+    transition: all linear 0.5s;
+}
+/* ======= SUGGESTION CSS END ======= */
+
+
+/* ======= FOOTER CSS START ======= */
+
+#footer{
+    background: #48409C;
+    padding-top: 140px;
+    padding-bottom: 57px;
+}
+.footer-logo{
+    padding-bottom: 44px;
+}
+.footer-left p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 449px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 180%;
+    color: rgba(254, 254, 254, 0.9);
+    padding-bottom: 189px;
+}
+.footer-item{
+    display: flex;
+}
+.footer-middle-wrapper{
+    padding-left: 73px;
+    display: flex;
+}
+/* .footer-third-wrapper{
+    padding-left: 100px;
+    padding-right: 100px;
+} */
+.footer-second{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 140%;
+    color: #FEFEFE;
+    padding-bottom: 48px;
+    padding-left: 27px;
+}
+.footer-second-wrapper ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    line-height: 120%;
+    color: #FEFEFE;
+    padding-bottom: 30px;
+}
+.footer-third{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 140%;
+    color: #FEFEFE;
+    padding-bottom: 48px;
+    padding-left: 100px;
+}
+.footer-third-wrapper ul{
+    padding-left: 100px;
+}
+.footer-third-wrapper ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    line-height: 120%;
+    color: #FEFEFE;
+    padding-bottom: 30px;
+}
+.footer-right{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 140%;
+    color: #FEFEFE;
+    padding-bottom: 48px;
+    padding-left: 100px;
+}
+.footer-right-wrapper ul{
+    padding-left: 100px;
+}
+.footer-right-wrapper ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    line-height: 120%;
+    color: #FEFEFE;
+    padding-bottom: 30px;
+}
+#footer .f1{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 180%;
+    color: rgba(254, 254, 254, 0.9);
+    padding-right: 535px;
+}
+#footer .f2{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 180%;
+    color: rgba(254, 254, 254, 0.9);
+    padding-right: 60px;
+}
+#footer .f3{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 180%;
+    color: rgba(254, 254, 254, 0.9);
+}
+#footer .last-p{
+    display: flex;
+}
+/* ======= FOOTER CSS END ======= */

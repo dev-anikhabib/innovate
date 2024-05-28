@@ -1,0 +1,217 @@
+@media (max-width: 575.98px){
+    #banner .row .col-lg-10 .banner-text h1 {
+        font-size: 48px;
+        line-height: 54px;
+        padding-bottom: 9px;
+    }
+    #banner .row .col-lg-8 .banner-text2 p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .banner-btn {
+        padding-left: 86px;
+    }
+    .banner-btn .banner-btn1 .b1 {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px 35px;
+        border-radius: 70px;
+    }
+    .banner-btn .banner-btn2 .b2 {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px 35px;
+        border-radius: 70px;
+    }
+    .banner-btn .banner-btn1 {
+        padding-right: 17px;
+    }
+    #banner {
+        padding-top: 124px;
+        padding-bottom: 49px;
+    }
+    .counter-text h3 {
+        font-size: 50px;
+        line-height: 10px;
+        padding-bottom: 27px;
+    }
+    .counter-text:last-child p {
+        font-size: 22px;
+        line-height: 16px;
+        padding-bottom: 27px;
+    }
+    .counter-img {
+        z-index: -1;
+    }
+    #counter {
+        padding-top: 104px;
+        padding-bottom: 107px;
+    }
+    .counter-text {
+        border: none;
+    }
+    #service .service-work-part h3 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    #service .service-work-part p {
+        font-size: 15px;
+        line-height: 32px;
+        width: 276px;
+    }
+    #service .service-row-1{
+        margin-bottom: 24px;
+    }
+    #service .service-btn button {
+        padding: 14px 30px;
+    }
+    .row > * {
+        width: 109%;
+        max-width: 97%;
+        padding-bottom: 20px;
+    }
+    #works {
+        padding-top: 15px;
+    }
+    #works .works-titel p {
+        font-size: 14px;
+        line-height: 25px;
+        width: 274px;
+    }
+    #service {
+        padding-bottom: 15px;
+    }
+    #works .work-impact {
+        margin-left: 9px;
+    }
+    #works .work-impact h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #works .work-done .work-impact p {
+        font-size: 14px;
+        line-height: 26px;
+        width: 191px;
+    }
+    #works .works-titel {
+        margin-bottom: 22px;
+    }
+    #works .work-impact-img {
+        left: -58px;
+    }
+    .choose-left {
+        padding-right: 133px;
+        padding-bottom: 15px;
+    }
+    .choose-left:hover{
+        margin-bottom: 15px;
+    }
+    .choose-right-text {
+        padding-left: 0px;
+        width: 300px;
+    }
+    #counter {
+        padding-top: 82px;
+        padding-bottom: 41px;
+    }
+    #service {
+        padding-top: 62px;
+    }
+    #service .service-items {
+        padding: 55px;
+    }
+    #works .work-done {
+        padding-left: 100px;
+    }
+    #packages .package-price {
+        padding-left: 215px;
+    }
+    #packages .package-price-part {
+        padding-top: 30px;
+        padding-bottom: 33px;
+    }
+    #works .work-done .work-impact p {
+        width: 255px;
+    }
+    #packages .package-price-part h5 {
+        padding-bottom: 10px;
+    }
+    #choose {
+        padding-top: 70px;
+        padding-bottom: 29px;
+    }
+    #packages .package-titel h3 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    #packages {
+        padding-top: 48px;
+        padding-bottom: 42px;
+    }
+    #packages .package-titel {
+        padding-bottom: 10px;
+    }
+    #about .about-titel h3 {
+        font-size: 25px;
+        line-height: 38px;
+        padding-bottom: 46px;
+    }
+    #about {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+    #about .about-info p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 270px;
+        margin-bottom: 23px;
+    }
+    #about .about-designation h5 {
+        font-size: 23px;
+        line-height: 36px;
+        margin-bottom: 2px;
+    }
+    #about .about-designation p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #about .about-info {
+        padding-bottom: 22px;
+    }
+    #suggestion .suggestion-titel h3 {
+        font-size: 28px;
+        line-height: 42px;
+        padding-bottom: 10px;
+        padding-left: 21px;
+    }
+    #suggestion .suggestions {
+        padding-left: 10px;
+        padding-bottom: 0px;
+    }
+    #footer {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .footer-left p {
+        font-size: 14px;
+        width: 298px;
+        line-height: 152%;
+        padding-bottom: 159px;
+    }
+    .choose-right-text p {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+    .choose-right-text h4 {
+        font-size: 24px;
+    }
+    .choose-right-text .cr-btn button {
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+    .choose-right {
+        padding-left: 33px;
+    }
+}
